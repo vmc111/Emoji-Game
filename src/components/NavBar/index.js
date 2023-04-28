@@ -25,7 +25,7 @@ const NavBar = props => {
           src="https://assets.ccbp.in/frontend/react-js/game-logo-img.png "
           alt="emoji logo"
         />
-        <p>Emoji Game</p>
+        <h1>Emoji Game</h1>
       </div>
       <div className="row-ele">
         <p className="score-margin">Score: {score}</p>

@@ -27,6 +27,11 @@ class EmojiGame extends Component {
     isGameOver: false,
   }
 
+  nextGame = () => {
+    const {score} = this.state
+    this.setState({isGameOver: false, score: 0, preScore: score})
+  }
+
   render() {
     const {emojisList} = this.props
     const totalEmojis = emojisList.length
@@ -38,12 +43,14 @@ class EmojiGame extends Component {
         if (topScore < score) {
           this.setState({topScore: score})
         }
-        this.setState({preScore: score})
         this.setState({
           score: 0,
+          preScore: score,
           clickedEmojiIds: [],
           isGameOver: true,
         })
+      } else if (score === totalEmojis - 1) {
+        this.setState({isGameOver: true, preScore: 12})
       } else {
         this.setState(preState => ({
           score: preState.score + 1,
@@ -52,14 +59,11 @@ class EmojiGame extends Component {
       }
     }
 
-    const nextGame = () =>
-      this.setState({isGameOver: false, score: 0, preScore: score})
-
     const cardBody = (
       <Card
         score={preScore}
         topScore={topScore}
-        btnFun={nextGame}
+        btnFun={this.nextGame}
         totalScore={totalEmojis}
       />
     )

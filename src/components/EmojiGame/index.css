@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0px 20vw;
+  margin: 2.5vh 25vw;
 }
 
 @media all and (max-width: 767px) {

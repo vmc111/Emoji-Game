@@ -1,0 +1,21 @@
+/* Write your code here. */
+.bg-main {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+.emojis-container {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20vw;
+}
+
+@media all and (max-width: 767px) {
+  .emojis-container {
+    width: 100%;
+    margin: 5vh 0px;
+  }
+}

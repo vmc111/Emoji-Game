@@ -50,7 +50,12 @@ class EmojiGame extends Component {
           isGameOver: true,
         })
       } else if (score === totalEmojis - 1) {
-        this.setState({isGameOver: true, preScore: 12})
+        this.setState({
+          isGameOver: true,
+          preScore: totalEmojis,
+          topScore: totalEmojis,
+          clickedEmojiIds: [],
+        })
       } else {
         this.setState(preState => ({
           score: preState.score + 1,

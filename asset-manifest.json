@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Emoji-Game/static/css/main.db0ccda8.chunk.css",
-    "main.js": "/Emoji-Game/static/js/main.ba6155ae.chunk.js",
-    "main.js.map": "/Emoji-Game/static/js/main.ba6155ae.chunk.js.map",
+    "main.css": "/Emoji-Game/static/css/main.de4be5bd.chunk.css",
+    "main.js": "/Emoji-Game/static/js/main.02141358.chunk.js",
+    "main.js.map": "/Emoji-Game/static/js/main.02141358.chunk.js.map",
     "runtime-main.js": "/Emoji-Game/static/js/runtime-main.b49c61de.js",
     "runtime-main.js.map": "/Emoji-Game/static/js/runtime-main.b49c61de.js.map",
     "static/js/2.17d573ea.chunk.js": "/Emoji-Game/static/js/2.17d573ea.chunk.js",
     "static/js/2.17d573ea.chunk.js.map": "/Emoji-Game/static/js/2.17d573ea.chunk.js.map",
     "index.html": "/Emoji-Game/index.html",
-    "static/css/main.db0ccda8.chunk.css.map": "/Emoji-Game/static/css/main.db0ccda8.chunk.css.map",
+    "static/css/main.de4be5bd.chunk.css.map": "/Emoji-Game/static/css/main.de4be5bd.chunk.css.map",
     "static/js/2.17d573ea.chunk.js.LICENSE.txt": "/Emoji-Game/static/js/2.17d573ea.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b49c61de.js",
     "static/js/2.17d573ea.chunk.js",
-    "static/css/main.db0ccda8.chunk.css",
-    "static/js/main.ba6155ae.chunk.js"
+    "static/css/main.de4be5bd.chunk.css",
+    "static/js/main.02141358.chunk.js"
   ]
 }
